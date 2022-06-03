@@ -17,4 +17,10 @@ public class HomePage extends BasePage {
         PageFactory.initElements(driver, this);
     }
 
+    @FindBy (xpath = "//a[text()='User-Mgt']")
+    public WebElement userMtgBtn;
+
+    @FindBy (xpath = "//a[text()='Access DB']")
+    public WebElement accessDB;
+
 }
